@@ -1,0 +1,102 @@
+{
+  "_meta": {
+    "type": {
+      "title.firstitems": "markup",
+      "details.firstitems": "markup",
+      "details.atleastoneexclude": "markup",
+      "details.morethanoneinclude": "markup"
+    }
+  },
+  "en-US": {
+    "add": "Add",
+    "stat": {
+      "caption": "Stat",
+      "sum": "Sum",
+      "max": "Max",
+      "count": "Count",
+      "min": "Min"
+    },
+    "details": {
+      "atleastoneexclude": "(A ∪ B ∪ C) / (A ∩ B ∩ C)<br/>[union subtract intersection]",
+      "morethanoneinclude": "(A ∪ B ∪ C) / (A ∆ B ∆ C)<br/>[union subtract difference]",
+      "union": "A ∪ B ∪ C",
+      "intersection": "A ∩ B ∩ C",
+      "difference": "A ∆ B ∆ C",
+      "subtract": "A / B",
+      "words": "",
+      "numbers": "",
+      "A": "",
+      "B": "",
+      "C": "",
+      "mapfilter": "NUMBERS -> WORDS",
+      "filter": "ONLY ODD",
+      "cloud": "dividers",
+      "firstitems": "&nbsp;",
+      "split": "ODD and EVEN"
+    },
+    "title": {
+      "union": "Union",
+      "intersection": "Intersection",
+      "atleastoneexclude": "At Least One Exclude",
+      "difference": "Difference",
+      "morethanoneinclude": "More Than One Include",
+      "subtract": "Subtract",
+      "words": "dataset WORDS",
+      "numbers": "dataset NUMBERS",
+      "A": "Dataset A",
+      "B": "Dataset B",
+      "C": "Dataset C",
+      "mapfilter": "MapFilter for A",
+      "filter": "Filter A",
+      "cloud": "Cloud of A",
+      "firstitems": "First {n} items of A",
+      "split": "Split A"
+    }
+  },
+  "ru-RU": {
+    "add": "Добавить",
+    "stat": {
+      "caption": "Статистика",
+      "sum": "Сумма",
+      "max": "Максимум",
+      "count": "Количество",
+      "min": "Минимум"
+    },
+    "details": {
+      "atleastoneexclude": "(A ∪ B ∪ C) / (A ∩ B ∩ C)<br/>[объединение без пересечения]",
+      "morethanoneinclude": "(A ∪ B ∪ C) / (A ∆ B ∆ C)<br/>[объединение без уникальных]",
+      "union": "A ∪ B ∪ C",
+      "intersection": "A ∩ B ∩ C",
+      "difference": "A ∆ B ∆ C",
+      "subtract": "A / B",
+      "words": "",
+      "numbers": "",
+      "A": "",
+      "B": "",
+      "C": "",
+      "mapfilter": "ЧИСЛА -> СЛОВА",
+      "filter": "только НЕЧЁТНЫЕ",
+      "cloud": "Делители",
+      "firstitems": "Первые {n} элементов",
+      "split": "НЕЧЁТНЫЕ и ЧЁТНЫЕ"
+    },
+    "title": {
+      "atleastoneexclude": "Хотя бы в одном отсутствует",
+      "morethanoneinclude": "Более, чем в одном присутствует",
+      "union": "Объединение",
+      "intersection": "Пересечение",
+      "difference": "Уникальные (?)",
+      "subtract": "Разность",
+      "words": "СЛОВА",
+      "numbers": "ЧИСЛА",
+      "A": "Набор A",
+      "B": "Набор B",
+      "C": "Набор C",
+      "mapfilter": "MapFilter для A",
+      "filter": "Фильтр для A",
+      "cloud": "Облако для A",
+      "firstitems": "Срез для A",
+      "split": "Разбиение для A"
+    }
+  }
+}

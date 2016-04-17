@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "type": {
+    }
+  },
+  "en-US": {
+    "header": {
+      "source": "Source datasets",
+      "custom": "Custom datasets",
+      "operable": "Operable datasets",
+      "mapfilter": "MapFilter datasets"
+    }
+  },
+  "ru-RU": {
+    "header": {
+      "source": "Исходные наборы",
+      "custom": "Настраиваемые наборы",
+      "operable": "Операции над наборами",
+      "mapfilter": "Отображения наборов"
+    }
+  }
+}

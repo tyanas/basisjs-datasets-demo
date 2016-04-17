@@ -1,0 +1,16 @@
+.side
+{
+  background: #ddd;
+  padding: 0 15px 20px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+
+  /*display: none;*/
+}
+.side:after
+{
+  content: 'satellite';
+  position: absolute;
+  color: #aaa;
+}

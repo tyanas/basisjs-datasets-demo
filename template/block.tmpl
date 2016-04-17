@@ -1,0 +1,28 @@
+<b:style src="./block.css"/>
+<b:isolate/>
+
+<div class="block">
+  <div class="content">
+    <div class="wrapper">
+      <h3 class="title"><div class="text">{l10n:title.{type}}</div></h3>
+      <div b:show="{image}" class="img">
+        <img src="./img/dataset_{image}.png" width="120" height="80"/>
+      </div>
+      <div class="details">{l10n:details.{type}}</div>
+      <div{childNodesElement} class="items"/>
+       <div>sum: {sum}<br/>(sum as factory {sum2})<br/>[selected-like sum {sum3}]</div>
+      <div b:show="{editable}" class="panel">
+        <button event-click="add" class="add">{l10n:add}</button>
+      </div>
+    </div>
+    <div class="side">
+      <h4>{l10n:stat.caption}</h4>
+      <div>{l10n:stat.sum}: {sum}</div>
+      <div>{l10n:stat.max}: {max}</div>
+      <div>{l10n:stat.count}: {count}</div>
+
+    </div>
+
+    <!--{stat}-->
+  </div>
+</div>

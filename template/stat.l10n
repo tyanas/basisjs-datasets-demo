@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "type": {
+      "stat": "enum-markup"
+    }
+  },
+  "en-US": {
+    "stat": {
+      "caption": "Stat",
+      "sum": "Sum",
+      "count": "Count",
+      "min": "Min",
+      "max": "Max"
+    }
+  },
+  "ru-RU": {
+    "stat": {
+      "caption": "Статистика",
+      "sum": "Сумма",
+      "count": "Количество",
+      "min": "Минимум",
+      "max": "Максимум"
+    }
+  }
+}

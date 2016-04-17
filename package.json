@@ -1,0 +1,27 @@
+{
+  "name": "basisjs-datasets-demo",
+  "dependencies": {
+    "basisjs": "tyanas/basisjs",
+    "basisjs-tools-build": "basisjs/basisjs-tools-build#e94f1d6daa206580cf18939bec6dd7b895bffcdd",
+    "jscs": "2.0.0",
+    "jscs-jsdoc": "1.1.0"
+  },
+  "devDependencies": {
+    "basisjs-tools": "1.7.0",
+    "basisjs-tools-instrumenter": "1.0.1"
+  },
+  "basisjsConfig": {
+    "server": {
+      "port": 8124
+    },
+    "plugins": [
+      {
+        "name": "basisjs-tools-instrumenter",
+        "target": "server",
+        "ignore": [
+          "node_modules/**"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+.item
+{
+  margin: 0 6px 7px 0;
+  padding: .2em .75ex;
+  text-align: center;
+  display: inline-block;
+  min-width: 3ex;
+  background: #eee;
+  color: black;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 1px 1px 2px #bbb;
+}
+
+.remove
+{
+  background: #CC0000;
+  color: white;
+  position: absolute;
+  font-size: 60%;
+  padding: 1px 4px 2px;
+  line-height: 1;
+  border-radius: 3px;
+  top: -3px;
+  right: -5px;
+  cursor: pointer;
+  opacity: .5;
+}
+.remove:hover
+{
+  opacity: 1;
+}
